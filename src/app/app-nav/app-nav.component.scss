@@ -1,0 +1,38 @@
+:host(.color--01) {
+  background: rgb(81, 42, 188);
+}
+:host(.color--02) {
+  background: rgb(188, 42, 86);
+}
+:host(.ejemplo) {
+  display: block;
+  border-radius: 0.5em;
+  margin: 1.5em 0;
+  padding: 1em 1.2em;
+}
+
+:host-context(.contenedor){
+  display: block;
+  border-radius: 0.5em;
+  margin: 1.5em 0;
+  padding: 1em 1.2em;
+}
+
+
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/deep/a {
+    color: #fff;
+    padding: 0 1em;
+    text-decoration: none;
+}
+
+/deep/a:hover {
+    text-decoration: underline;
+}
