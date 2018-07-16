@@ -1,10 +1,21 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
+  // tslint:disable-next-line:component-selector
+  selector: 'saa-app',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'app';
+  pills = [
+    {
+      label: 'HTML'
+    },
+    {
+      label: 'CSS'
+    },
+    {
+      label: 'SASS'
+    }
+  ];
 }
